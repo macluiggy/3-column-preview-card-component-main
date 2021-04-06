@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+:root {
+    /* primari */
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    /* neutral */
+    --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray-\\background-headings-buttons\\: hsl(0, 0%, 95%);
+}
+/*font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;*/
+body {
+    max-width: 1440px;
+    font-size: 15px;
+    background-color: var(--Very-light-gray-\\background-headings-buttons\\);
+    position: relative;
+    top: 5em;
+}
+main {
+    border-radius: 1em;
+    overflow: hidden;
+    width: 65%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em,1fr));
+}
+section {
+    padding: 2.5em;
+    color: var(--Very-light-gray-\\background-headings-buttons\\);
+}
+.section1 {
+    background-color: var(--Bright-orange);
+}
+.section2 {
+    background-color: var(--Dark-cyan);
+}
+.section3 {
+    background-color: var(--Very-dark-cyan);
+}
+article {
+    width: auto;
+    height: auto;
+}
+img {
+    width: 100%;
+}
+figure {
+    width: 30%;
+    position: relative;
+    right: 3em;
+    bottom: 1em;
+}
+header {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 1.86666667em; /* 28px / 15px */
+    color: var(--Very-light-gray-\\background-headings-buttons\\);
+}
+p {
+    padding: 1em 0 4em 0;
+}
+p, button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12.5px;
+}
+button {
+    border: solid;
+    border-radius: 3em;
+    padding: 1em;
+    width: 9em;
+    background-color: var(--Very-light-gray-\\background-headings-buttons\\);;
+}
+button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+.section1 button {
+    color: var(--Bright-orange);
+    color: var(--Bright-orange);
+}
+.section1 button:hover {
+    color: var(--Transparent-white-paragraphs);
+}
+.section2 button {
+    color: var(--Dark-cyan);
+}
+.section2 button:hover {
+    color: var(--Transparent-white-paragraphs);
+}
+.section3 button {
+    color: var(--Very-dark-cyan);
+}
+.section3 button:hover {
+    color: var(--Transparent-white-paragraphs);
+}
+
